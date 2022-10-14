@@ -2,7 +2,7 @@ const bottle = {color: 'yellow', price: 50, isCleaned: true, capacity:1};
 // Object.keys will return the keys of an object
 const keys = Object.keys(bottle);
 // console.log(keys);
-// Object.keys will return the keys of an object
+// Object.values will return the values of an object
 const values = Object.values(bottle);
 // console.log(values);
 // Object.entries will return the key value pair in the form of 2D array
