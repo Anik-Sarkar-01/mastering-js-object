@@ -4,7 +4,7 @@ const student = {
     money: 5000,
     study: 'Math',
     subjects: ['calculus', 'algebra', 'geometry'],
-    //Method
+    //Declaring Method
     //When we are calling a object property from a method of that function, then we need to include - this.
     //Method can even return instead of console.log
     //we can use the property of an object inside a method
@@ -17,7 +17,7 @@ const student = {
         this.exam();
         return `${this.name} is taking improvement exam on ${subject}`
     },
-    //we can set the value of an property
+    //we can set the value of a property using method
     treatDey: function(amount){
         this.money = this.money - amount;
         return this.money;
